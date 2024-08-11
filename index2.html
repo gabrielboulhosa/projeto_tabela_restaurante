@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurante</title>
+    <link rel="stylesheet" href="./style2.css">
+</head>
+
+<body>
+    <header>
+        <div class="conteiner">
+            <form action="" id="form">
+                <input id="prato-nome" type="text" placeholder="Nome do prato" required>
+                <input id="quantidade" type="number" placeholder="Quantidade" required>
+                <input id="preco" type="text" placeholder="Preço" required>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </header>
+    <section>
+        <div class="conteiner">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nome do prato</th>
+                        <th>Quantidade</th>
+                        <th>Preço</th>
+                        <th>Ação</th> <!-- Adiciona coluna para ações -->
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- As linhas serão adicionadas aqui -->
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td>Total:</td>
+                        <td colspan="3" class="ttt">...</td> <!-- Altere colspan para 3 -->
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="./main2.js"></script>
+</body>
+
+</html>
